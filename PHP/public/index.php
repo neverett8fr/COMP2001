@@ -3,8 +3,6 @@ include_once ("header.php");
 include_once ("footer.php");
 ?>
 
-<body>
-
 
 
 <!-- Top menu on small screens -->
@@ -17,7 +15,7 @@ include_once ("footer.php");
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
 
-    <div class="w3-container" style="margin-top:80px" id="showcase">
+    <div class="w3-container" style="margin-top:80px">
         <h1 class="w3-jumbo"><b>Air Quality</b></h1>
         <h1 class="w3-xxxlarge w3-text-red"><b>Data Set</b></h1>
         <hr style="width:50px;border:5px solid red" class="w3-round">
@@ -46,7 +44,7 @@ include_once ("footer.php");
     </div>
 
     <!-- Services -->
-    <div class="w3-container" id="services" style="margin-top:75px">
+    <div class="w3-container"  style="margin-top:75px">
         <h1 class="w3-xxxlarge w3-text-red"><b>About The Project.</b></h1>
         <hr style="width:50px;border:5px solid red" class="w3-round">
         <p>This project we have to take a data set and display it in a readable format</p>
