@@ -5,21 +5,7 @@ include_once ("footer.php");
 
 <body>
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
-    <div class="w3-container">
-        <h3 class="w3-padding-64"><b>Company<br>Name</b></h3>
-    </div>
-    <div class="w3-bar-block">
-        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
-        <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a>
-        <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a>
-        <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a>
-        <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a>
-        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
-    </div>
-</nav>
+
 
 <!-- Top menu on small screens -->
 
@@ -30,23 +16,23 @@ include_once ("footer.php");
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
-    <!-- Header -->
+
     <div class="w3-container" style="margin-top:80px" id="showcase">
-        <h1 class="w3-jumbo"><b>Interior Design</b></h1>
-        <h1 class="w3-xxxlarge w3-text-red"><b>Showcase.</b></h1>
+        <h1 class="w3-jumbo"><b>Air Quality</b></h1>
+        <h1 class="w3-xxxlarge w3-text-red"><b>Data Set</b></h1>
         <hr style="width:50px;border:5px solid red" class="w3-round">
     </div>
 
     <!-- Photo grid (modal) -->
     <div class="w3-row-padding">
         <div class="w3-half">
-            <img src="../assets/img/data-analysis.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-            <img src="../assets/img/data-analysis.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+            <img src="../assets/img/environmentDataPlymouth.jpg" style="width:100%" onclick="onClick(this)" alt="Data Place Plymouth">
+            <img src="../assets/img/data-analysis.jpg" style="width:100%" onclick="onClick(this)" alt="----">
         </div>
 
         <div class="w3-half">
-            <img src="../assets/img/data-analysis.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
-            <img src="../assets/img/data-analysis.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+            <img src="../assets/img/data-analysis.jpg" style="width:100%" onclick="onClick(this)" alt="----">
+            <img src="../assets/img/data-analysis.jpg" style="width:100%" onclick="onClick(this)" alt="----">
         </div>
     </div>
 
@@ -61,11 +47,14 @@ include_once ("footer.php");
 
     <!-- Services -->
     <div class="w3-container" id="services" style="margin-top:75px">
-        <h1 class="w3-xxxlarge w3-text-red"><b>Services.</b></h1>
+        <h1 class="w3-xxxlarge w3-text-red"><b>About The Project.</b></h1>
         <hr style="width:50px;border:5px solid red" class="w3-round">
-        <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
-        <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p>This project we have to take a data set and display it in a readable format</p>
+        <p>The Data Set can be found on the data page by clicking the Data tab, and output in a RDF (Resource Description Framework) format
         </p>
+        <p>The dataset I picked is based on the air quality in plymouth. This can be found by clicking the Original Data Set tab.
+        </p>
+        <p>The data has been transformed into machine readable format also. This can be found by clicking the Entity / Machine Readable Data tab.
+        </p>
+
     </div>
