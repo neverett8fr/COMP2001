@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="708e0fd5-9b6e-4e65-882b-20ef83300590" name="uop" url="//CENT-5-534.uopnet.plymouth.ac.uk/COMP2001/neverett/public">
+        <fileTransfer mountedRoot="\\CENT-5-534.uopnet.plymouth.ac.uk\COMP2001\neverett\public" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

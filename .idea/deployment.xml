@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="uop" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="uop">
+        <serverdata>
+          <mappings>
+            <mapping deploy="//CENT-5-534.uopnet.plymouth.ac.uk/COMP2001/neverett/public" local="//CENT-5-534.uopnet.plymouth.ac.uk/COMP2001/neverett/public" web="//CENT-5-534.uopnet.plymouth.ac.uk/COMP2001/neverett/public" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
